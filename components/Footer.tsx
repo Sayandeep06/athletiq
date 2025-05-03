@@ -1,4 +1,4 @@
-import { ZapIcon } from "lucide-react";
+
 import Link from "next/link";
 
 const Footer = () => {
@@ -12,9 +12,6 @@ const Footer = () => {
           {/* Logo & Name */}
           <div className="flex flex-col items-center md:items-start gap-2">
             <Link href="/" className="flex items-center gap-2">
-              <div className="p-1 bg-primary/10 rounded">
-                <ZapIcon className="w-5 h-5 text-primary" />
-              </div>
               <span className="text-2xl font-bold tracking-tight">
                 Athletiq
               </span>
@@ -26,12 +23,12 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-12 gap-y-2 text-sm text-muted-foreground">
-            <Link href="/about" className="hover:text-primary transition-colors">About</Link>
-            <Link href="/terms" className="hover:text-primary transition-colors">Terms</Link>
-            <Link href="/privacy" className="hover:text-primary transition-colors">Privacy</Link>
-            <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
-            <Link href="/blog" className="hover:text-primary transition-colors">Blog</Link>
-            <Link href="/help" className="hover:text-primary transition-colors">Support</Link>
+            <Link href="/" className="hover:text-primary transition-colors">About</Link>
+            <Link href="/" className="hover:text-primary transition-colors">Terms</Link>
+            <Link href="/" className="hover:text-primary transition-colors">Privacy</Link>
+            <Link href="/" className="hover:text-primary transition-colors">Contact</Link>
+            <Link href="/" className="hover:text-primary transition-colors">Blog</Link>
+            <Link href="/" className="hover:text-primary transition-colors">Support</Link>
           </div>
 
           {/* Status Indicator */}

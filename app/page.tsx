@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const HomePage = () => {
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center text-center px-6 bg-background text-foreground">
+<section className="relative z-10 flex min-h-screen flex-col items-center justify-center text-center px-6 bg-transparent text-foreground">
       <div className="max-w-3xl space-y-8">
         {/* HEADLINE */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight">
