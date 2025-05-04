@@ -4,6 +4,7 @@ import { SignInButton, SignUpButton, UserButton, useUser } from "@clerk/nextjs";
 import { DumbbellIcon, HomeIcon, UserIcon } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import { ModeToggle } from "./toggle-button";
 
 const Navbar = () => {
   const { isSignedIn } = useUser();
@@ -18,6 +19,7 @@ const Navbar = () => {
         </Link>
 
         <nav className="flex items-center gap-5">
+          <ModeToggle/>
           {isSignedIn ? (
             <>
               <Link

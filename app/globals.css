@@ -137,6 +137,7 @@
   --sidebar-accent-foreground: #1f1f1f;
   --sidebar-border: #fcd34d;
   --sidebar-ring: #facc15;
+  --cyber-grid-color: rgba(255, 204, 0, 0.06); /* soft yellow grid for dark mode */
 }
 
 @layer base {
